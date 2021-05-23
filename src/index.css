@@ -127,6 +127,8 @@ a {
   border-color: #e6d3d3;
   margin:1rem 0;
   width: 100%;
+  font-size: 1.2rem;
+  font-weight: bolder;
 }
 
 .card button {
