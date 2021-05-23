@@ -8,7 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: url(images/back1.png);
   background-repeat: no-repeat;
-  background-size: auto 100%;
+  background-size: cover;
   background-position: center;
 }
 
@@ -51,7 +51,7 @@ a {
 
 .header {
   box-shadow: 0px 0px 7px 0px #00000040;
-  margin: 0;
+  margin-bottom: 1.5rem;
   min-height: 10rem;
 }
 
@@ -121,6 +121,7 @@ a {
 }
 
 .card input {
+  background-color: #89784257;
   text-transform: uppercase;
   border-radius: 0.1rem;
   border-color: #e6d3d3;
