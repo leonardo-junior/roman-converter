@@ -10,6 +10,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  backdrop-filter: blur(1px);
 }
 
 a {
@@ -32,12 +33,12 @@ a {
 }
 
 .navigator a {
-  color:gray;
+  color: #c2bbbb;
   padding: 0.5rem;
 }
 
 .navigator a:hover {
-  color:black
+  color:gray
 }
 
 .img-nav {
@@ -51,16 +52,19 @@ a {
 
 .header {
   box-shadow: 0px 0px 7px 0px #00000040;
-  margin-bottom: 1.5rem;
-  min-height: 10rem;
+  margin-bottom: 3rem;
+  padding: 3rem;
+  min-height: 12rem;
 }
 
 .header h2{
+  padding-top:1rem;
   font-size: 1.5rem;
   font-weight: normal;
 }
 
 .cards-locale{
+  font-weight: 500;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -70,10 +74,10 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: #ddbe9973;
+  background-color: #d1bb81a3;
   border-radius: 0.5rem;
   min-height: 10rem;
-  max-width: 18rem;
+  max-width: 20rem;
   width: 100%;
   margin:1rem;
   padding: 1rem;
@@ -82,7 +86,7 @@ a {
 
 .cards-locale header {
   color:#251710;
-  font-size:1.2rem;
+  font-size:1.5rem;
   font-weight: bolder;
 }
 
@@ -104,7 +108,7 @@ a {
   background-color: #ddbe9973;
   border-radius: 0.5rem;
   min-height: 10rem;
-  max-width: 18rem;
+  max-width: 20rem;
   width: 100%;
   margin:1rem;
   padding: 1rem;
@@ -113,6 +117,7 @@ a {
 
 .card header {
   margin-bottom: 0.2rem;
+  font-size: 1.5rem;
 }
 
 .card p {
