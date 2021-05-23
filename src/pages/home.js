@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import CardHome from '../components/card-home';
 
 function Home () {
